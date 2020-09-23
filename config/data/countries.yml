@@ -1,0 +1,1001 @@
+---
+- :name: Afghanistan
+  :capital: Kabul
+  :iso: AF
+  :postal_code: ''
+- :name: Åland Islands
+  :capital: Mariehamn
+  :iso: AX
+  :postal_code: ''
+- :name: Albania
+  :capital: Tirana
+  :iso: AL
+  :postal_code: ''
+- :name: Algeria
+  :capital: Algiers
+  :iso: DZ
+  :postal_code: '39009'
+- :name: American Samoa
+  :capital: Pago Pago
+  :iso: AS
+  :postal_code: ''
+- :name: Andorra
+  :capital: Andorra la Vella
+  :iso: AD
+  :postal_code: ''
+- :name: Angola
+  :capital: Luanda
+  :iso: AO
+  :postal_code: ''
+- :name: Anguilla
+  :capital: The Valley
+  :iso: AI
+  :postal_code: ''
+- :name: Antarctica
+  :capital: ''
+  :iso: AQ
+  :postal_code: ''
+- :name: Antigua and Barbuda
+  :capital: Saint John's
+  :iso: AG
+  :postal_code: ''
+- :name: Argentina
+  :capital: Buenos Aires
+  :iso: AR
+  :postal_code: '1826'
+- :name: Armenia
+  :capital: Yerevan
+  :iso: AM
+  :postal_code: E1W 5T7
+- :name: Aruba
+  :capital: Oranjestad
+  :iso: AW
+  :postal_code: ''
+- :name: Australia
+  :capital: Canberra
+  :iso: AU
+  :postal_code: '7052'
+- :name: Austria
+  :capital: Vienna
+  :iso: AT
+  :postal_code: '7162'
+- :name: Azerbaijan
+  :capital: Baku
+  :iso: AZ
+  :postal_code: AZ1038
+- :name: Bahamas
+  :capital: Nassau
+  :iso: BS
+  :postal_code: ''
+- :name: Bahrain
+  :capital: Manama
+  :iso: BH
+  :postal_code: ''
+- :name: Bangladesh
+  :capital: Dhaka
+  :iso: BD
+  :postal_code: '1207'
+- :name: Barbados
+  :capital: Bridgetown
+  :iso: BB
+  :postal_code: ''
+- :name: Belarus
+  :capital: Minsk
+  :iso: BY
+  :postal_code: '247760'
+- :name: Belgium
+  :capital: Brussels
+  :iso: BE
+  :postal_code: '6142'
+- :name: Belize
+  :capital: Belmopan
+  :iso: BZ
+  :postal_code: ''
+- :name: Benin
+  :capital: Porto-Novo
+  :iso: BJ
+  :postal_code: ''
+- :name: Bermuda
+  :capital: Hamilton
+  :iso: BM
+  :postal_code: ''
+- :name: Bhutan
+  :capital: Thimphu
+  :iso: BT
+  :postal_code: ''
+- :name: Bolivia (Plurinational State of)
+  :capital: Sucre
+  :iso: BO
+  :postal_code: ''
+- :name: Bonaire, Sint Eustatius and Saba
+  :capital: Kralendijk
+  :iso: BQ
+  :postal_code: ''
+- :name: Bosnia and Herzegovina
+  :capital: Sarajevo
+  :iso: BA
+  :postal_code: '88000'
+- :name: Botswana
+  :capital: Gaborone
+  :iso: BW
+  :postal_code: ''
+- :name: Bouvet Island
+  :capital: ''
+  :iso: BV
+  :postal_code: ''
+- :name: Brazil
+  :capital: Brasília
+  :iso: BR
+  :postal_code: ''
+- :name: British Indian Ocean Territory
+  :capital: Diego Garcia
+  :iso: IO
+  :postal_code: ''
+- :name: United States Minor Outlying Islands
+  :capital: ''
+  :iso: UM
+  :postal_code: ''
+- :name: Virgin Islands (British)
+  :capital: Road Town
+  :iso: VG
+  :postal_code: ''
+- :name: Virgin Islands (U.S.)
+  :capital: Charlotte Amalie
+  :iso: VI
+  :postal_code: '00851'
+- :name: Brunei Darussalam
+  :capital: Bandar Seri Begawan
+  :iso: BN
+  :postal_code: '12'
+- :name: Bulgaria
+  :capital: Sofia
+  :iso: BG
+  :postal_code: '7000'
+- :name: Burkina Faso
+  :capital: Ouagadougou
+  :iso: BF
+  :postal_code: ''
+- :name: Burundi
+  :capital: Bujumbura
+  :iso: BI
+  :postal_code: ''
+- :name: Cambodia
+  :capital: Phnom Penh
+  :iso: KH
+  :postal_code: ''
+- :name: Cameroon
+  :capital: Yaoundé
+  :iso: CM
+  :postal_code: ''
+- :name: Canada
+  :capital: Ottawa
+  :iso: CA
+  :postal_code: M6A1X2
+- :name: Cabo Verde
+  :capital: Praia
+  :iso: CV
+  :postal_code: ''
+- :name: Cayman Islands
+  :capital: George Town
+  :iso: KY
+  :postal_code: ''
+- :name: Central African Republic
+  :capital: Bangui
+  :iso: CF
+  :postal_code: ''
+- :name: Chad
+  :capital: N'Djamena
+  :iso: TD
+  :postal_code: ''
+- :name: Chile
+  :capital: Santiago
+  :iso: CL
+  :postal_code: ''
+- :name: China
+  :capital: Beijing
+  :iso: CN
+  :postal_code: '244343'
+- :name: Christmas Island
+  :capital: Flying Fish Cove
+  :iso: CX
+  :postal_code: ''
+- :name: Cocos (Keeling) Islands
+  :capital: West Island
+  :iso: CC
+  :postal_code: ''
+- :name: Colombia
+  :capital: Bogotá
+  :iso: CO
+  :postal_code: ''
+- :name: Comoros
+  :capital: Moroni
+  :iso: KM
+  :postal_code: ''
+- :name: Congo
+  :capital: Brazzaville
+  :iso: CG
+  :postal_code: ''
+- :name: Congo (Democratic Republic of the)
+  :capital: Kinshasa
+  :iso: CD
+  :postal_code: ''
+- :name: Cook Islands
+  :capital: Avarua
+  :iso: CK
+  :postal_code: ''
+- :name: Costa Rica
+  :capital: San José
+  :iso: CR
+  :postal_code: ''
+- :name: Croatia
+  :capital: Zagreb
+  :iso: HR
+  :postal_code: '49218'
+- :name: Cuba
+  :capital: Havana
+  :iso: CU
+  :postal_code: ''
+- :name: Curaçao
+  :capital: Willemstad
+  :iso: CW
+  :postal_code: ''
+- :name: Cyprus
+  :capital: Nicosia
+  :iso: CY
+  :postal_code: '8035'
+- :name: Czech Republic
+  :capital: Prague
+  :iso: CZ
+  :postal_code: '19300'
+- :name: Denmark
+  :capital: Copenhagen
+  :iso: DK
+  :postal_code: '8450'
+- :name: Djibouti
+  :capital: Djibouti
+  :iso: DJ
+  :postal_code: ''
+- :name: Dominica
+  :capital: Roseau
+  :iso: DM
+  :postal_code: ''
+- :name: Dominican Republic
+  :capital: Santo Domingo
+  :iso: DO
+  :postal_code: ''
+- :name: Ecuador
+  :capital: Quito
+  :iso: EC
+  :postal_code: ''
+- :name: Egypt
+  :capital: Cairo
+  :iso: EG
+  :postal_code: ''
+- :name: El Salvador
+  :capital: San Salvador
+  :iso: SV
+  :postal_code: ''
+- :name: Equatorial Guinea
+  :capital: Malabo
+  :iso: GQ
+  :postal_code: ''
+- :name: Eritrea
+  :capital: Asmara
+  :iso: ER
+  :postal_code: ''
+- :name: Estonia
+  :capital: Tallinn
+  :iso: EE
+  :postal_code: '10112'
+- :name: Ethiopia
+  :capital: Addis Ababa
+  :iso: ET
+  :postal_code: ''
+- :name: Falkland Islands (Malvinas)
+  :capital: Stanley
+  :iso: FK
+  :postal_code: ''
+- :name: Faroe Islands
+  :capital: Tórshavn
+  :iso: FO
+  :postal_code: '410'
+- :name: Fiji
+  :capital: Suva
+  :iso: FJ
+  :postal_code: ''
+- :name: Finland
+  :capital: Helsinki
+  :iso: FI
+  :postal_code: '33840'
+- :name: France
+  :capital: Paris
+  :iso: FR
+  :postal_code: '13300 '
+- :name: French Guiana
+  :capital: Cayenne
+  :iso: GF
+  :postal_code: ''
+- :name: French Polynesia
+  :capital: Papeetē
+  :iso: PF
+  :postal_code: ''
+- :name: French Southern Territories
+  :capital: Port-aux-Français
+  :iso: TF
+  :postal_code: ''
+- :name: Gabon
+  :capital: Libreville
+  :iso: GA
+  :postal_code: ''
+- :name: Gambia
+  :capital: Banjul
+  :iso: GM
+  :postal_code: ''
+- :name: Georgia
+  :capital: Tbilisi
+  :iso: GE
+  :postal_code: '0154'
+- :name: Germany
+  :capital: Berlin
+  :iso: DE
+  :postal_code: '79865'
+- :name: Ghana
+  :capital: Accra
+  :iso: GH
+  :postal_code: ''
+- :name: Gibraltar
+  :capital: Gibraltar
+  :iso: GI
+  :postal_code: ''
+- :name: Greece
+  :capital: Athens
+  :iso: GR
+  :postal_code: '19400'
+- :name: Greenland
+  :capital: Nuuk
+  :iso: GL
+  :postal_code: '3912'
+- :name: Grenada
+  :capital: St. George's
+  :iso: GD
+  :postal_code: ''
+- :name: Guadeloupe
+  :capital: Basse-Terre
+  :iso: GP
+  :postal_code: ''
+- :name: Guam
+  :capital: Hagåtña
+  :iso: GU
+  :postal_code: '96910'
+- :name: Guatemala
+  :capital: Guatemala City
+  :iso: GT
+  :postal_code: ''
+- :name: Guernsey
+  :capital: St. Peter Port
+  :iso: GG
+  :postal_code: '11'
+- :name: Guinea
+  :capital: Conakry
+  :iso: GN
+  :postal_code: ''
+- :name: Guinea-Bissau
+  :capital: Bissau
+  :iso: GW
+  :postal_code: ''
+- :name: Guyana
+  :capital: Georgetown
+  :iso: GY
+  :postal_code: ''
+- :name: Haiti
+  :capital: Port-au-Prince
+  :iso: HT
+  :postal_code: ''
+- :name: Heard Island and McDonald Islands
+  :capital: ''
+  :iso: HM
+  :postal_code: ''
+- :name: Holy See
+  :capital: Rome
+  :iso: VA
+  :postal_code: ''
+- :name: Honduras
+  :capital: Tegucigalpa
+  :iso: HN
+  :postal_code: ''
+- :name: Hong Kong
+  :capital: City of Victoria
+  :iso: HK
+  :postal_code: ''
+- :name: Hungary
+  :capital: Budapest
+  :iso: HU
+  :postal_code: '2370'
+- :name: Iceland
+  :capital: Reykjavík
+  :iso: IS
+  :postal_code: ''
+- :name: India
+  :capital: New Delhi
+  :iso: IN
+  :postal_code: '415001'
+- :name: Indonesia
+  :capital: Jakarta
+  :iso: ID
+  :postal_code: '17320'
+- :name: Côte d'Ivoire
+  :capital: Yamoussoukro
+  :iso: CI
+  :postal_code: ''
+- :name: Iran (Islamic Republic of)
+  :capital: Tehran
+  :iso: IR
+  :postal_code: ''
+- :name: Iraq
+  :capital: Baghdad
+  :iso: IQ
+  :postal_code: ''
+- :name: Ireland
+  :capital: Dublin
+  :iso: IE
+  :postal_code: ''
+- :name: Isle of Man
+  :capital: Douglas
+  :iso: IM
+  :postal_code: ''
+- :name: Israel
+  :capital: Jerusalem
+  :iso: IL
+  :postal_code: '4366223'
+- :name: Italy
+  :capital: Rome
+  :iso: IT
+  :postal_code: '81028'
+- :name: Jamaica
+  :capital: Kingston
+  :iso: JM
+  :postal_code: ''
+- :name: Japan
+  :capital: Tokyo
+  :iso: JP
+  :postal_code: '4750846'
+- :name: Jersey
+  :capital: Saint Helier
+  :iso: JE
+  :postal_code: JE3 8AB
+- :name: Jordan
+  :capital: Amman
+  :iso: JO
+  :postal_code: ''
+- :name: Kazakhstan
+  :capital: Astana
+  :iso: KZ
+  :postal_code: '090002'
+- :name: Kenya
+  :capital: Nairobi
+  :iso: KE
+  :postal_code: ''
+- :name: Kiribati
+  :capital: South Tarawa
+  :iso: KI
+  :postal_code: ''
+- :name: Kuwait
+  :capital: Kuwait City
+  :iso: KW
+  :postal_code: ''
+- :name: Kyrgyzstan
+  :capital: Bishkek
+  :iso: KG
+  :postal_code: '720020'
+- :name: Lao People's Democratic Republic
+  :capital: Vientiane
+  :iso: LA
+  :postal_code: ''
+- :name: Latvia
+  :capital: Riga
+  :iso: LV
+  :postal_code: '200012'
+- :name: Lebanon
+  :capital: Beirut
+  :iso: LB
+  :postal_code: ''
+- :name: Lesotho
+  :capital: Maseru
+  :iso: LS
+  :postal_code: ''
+- :name: Liberia
+  :capital: Monrovia
+  :iso: LR
+  :postal_code: ''
+- :name: Libya
+  :capital: Tripoli
+  :iso: LY
+  :postal_code: ''
+- :name: Liechtenstein
+  :capital: Vaduz
+  :iso: LI
+  :postal_code: '9496'
+- :name: Lithuania
+  :capital: Vilnius
+  :iso: LT
+  :postal_code: LT
+- :name: Luxembourg
+  :capital: Luxembourg
+  :iso: LU
+  :postal_code: '0362'
+- :name: Macao
+  :capital: ''
+  :iso: MO
+  :postal_code: ''
+- :name: Macedonia (the former Yugoslav Republic of)
+  :capital: Skopje
+  :iso: MK
+  :postal_code: '2304'
+- :name: Madagascar
+  :capital: Antananarivo
+  :iso: MG
+  :postal_code: Antananarivo 102
+- :name: Malawi
+  :capital: Lilongwe
+  :iso: MW
+  :postal_code: ''
+- :name: Malaysia
+  :capital: Kuala Lumpur
+  :iso: MY
+  :postal_code: '50480'
+- :name: Maldives
+  :capital: Malé
+  :iso: MV
+  :postal_code: ''
+- :name: Mali
+  :capital: Bamako
+  :iso: ML
+  :postal_code: ''
+- :name: Malta
+  :capital: Valletta
+  :iso: MT
+  :postal_code: ''
+- :name: Marshall Islands
+  :capital: Majuro
+  :iso: MH
+  :postal_code: '96970'
+- :name: Martinique
+  :capital: Fort-de-France
+  :iso: MQ
+  :postal_code: '97200'
+- :name: Mauritania
+  :capital: Nouakchott
+  :iso: MR
+  :postal_code: ''
+- :name: Mauritius
+  :capital: Port Louis
+  :iso: MU
+  :postal_code: ''
+- :name: Mayotte
+  :capital: Mamoudzou
+  :iso: YT
+  :postal_code: '97600'
+- :name: Mexico
+  :capital: Mexico City
+  :iso: MX
+  :postal_code: '94290'
+- :name: Micronesia (Federated States of)
+  :capital: Palikir
+  :iso: FM
+  :postal_code: ''
+- :name: Moldova (Republic of)
+  :capital: Chișinău
+  :iso: MD
+  :postal_code: ''
+- :name: Monaco
+  :capital: Monaco
+  :iso: MC
+  :postal_code: ''
+- :name: Mongolia
+  :capital: Ulan Bator
+  :iso: MN
+  :postal_code: '976'
+- :name: Montenegro
+  :capital: Podgorica
+  :iso: ME
+  :postal_code: '08473'
+- :name: Montserrat
+  :capital: Plymouth
+  :iso: MS
+  :postal_code: ''
+- :name: Morocco
+  :capital: Rabat
+  :iso: MA
+  :postal_code: ''
+- :name: Mozambique
+  :capital: Maputo
+  :iso: MZ
+  :postal_code: ''
+- :name: Myanmar
+  :capital: Naypyidaw
+  :iso: MM
+  :postal_code: ''
+- :name: Namibia
+  :capital: Windhoek
+  :iso: NA
+  :postal_code: ''
+- :name: Nauru
+  :capital: Yaren
+  :iso: NR
+  :postal_code: ''
+- :name: Nepal
+  :capital: Kathmandu
+  :iso: NP
+  :postal_code: ''
+- :name: Netherlands
+  :capital: Amsterdam
+  :iso: NL
+  :postal_code: 4301 ZZ
+- :name: New Caledonia
+  :capital: Nouméa
+  :iso: NC
+  :postal_code: ''
+- :name: New Zealand
+  :capital: Wellington
+  :iso: NZ
+  :postal_code: '3340'
+- :name: Nicaragua
+  :capital: Managua
+  :iso: NI
+  :postal_code: ''
+- :name: Niger
+  :capital: Niamey
+  :iso: NE
+  :postal_code: ''
+- :name: Nigeria
+  :capital: Abuja
+  :iso: NG
+  :postal_code: ''
+- :name: Niue
+  :capital: Alofi
+  :iso: NU
+  :postal_code: ''
+- :name: Norfolk Island
+  :capital: Kingston
+  :iso: NF
+  :postal_code: ''
+- :name: Korea (Democratic People's Republic of)
+  :capital: Pyongyang
+  :iso: KP
+  :postal_code: ''
+- :name: Northern Mariana Islands
+  :capital: Saipan
+  :iso: MP
+  :postal_code: ''
+- :name: Norway
+  :capital: Oslo
+  :iso: 'NO'
+  :postal_code: '3048'
+- :name: Oman
+  :capital: Muscat
+  :iso: OM
+  :postal_code: ''
+- :name: Pakistan
+  :capital: Islamabad
+  :iso: PK
+  :postal_code: '74700'
+- :name: Palau
+  :capital: Ngerulmud
+  :iso: PW
+  :postal_code: ''
+- :name: Palestine, State of
+  :capital: Ramallah
+  :iso: PS
+  :postal_code: ''
+- :name: Panama
+  :capital: Panama City
+  :iso: PA
+  :postal_code: ''
+- :name: Papua New Guinea
+  :capital: Port Moresby
+  :iso: PG
+  :postal_code: ''
+- :name: Paraguay
+  :capital: Asunción
+  :iso: PY
+  :postal_code: ''
+- :name: Peru
+  :capital: Lima
+  :iso: PE
+  :postal_code: ''
+- :name: Philippines
+  :capital: Manila
+  :iso: PH
+  :postal_code: '5000'
+- :name: Pitcairn
+  :capital: Adamstown
+  :iso: PN
+  :postal_code: ''
+- :name: Poland
+  :capital: Warsaw
+  :iso: PL
+  :postal_code: 10-686
+- :name: Portugal
+  :capital: Lisbon
+  :iso: PT
+  :postal_code: 7860-004
+- :name: Puerto Rico
+  :capital: San Juan
+  :iso: PR
+  :postal_code: '0953'
+- :name: Qatar
+  :capital: Doha
+  :iso: QA
+  :postal_code: ''
+- :name: Republic of Kosovo
+  :capital: Pristina
+  :iso: XK
+  :postal_code: ''
+- :name: Réunion
+  :capital: Saint-Denis
+  :iso: RE
+  :postal_code: ljlj
+- :name: Romania
+  :capital: Bucharest
+  :iso: RO
+  :postal_code: ''
+- :name: Russian Federation
+  :capital: Moscow
+  :iso: RU
+  :postal_code: '119590'
+- :name: Rwanda
+  :capital: Kigali
+  :iso: RW
+  :postal_code: ''
+- :name: Saint Barthélemy
+  :capital: Gustavia
+  :iso: BL
+  :postal_code: ''
+- :name: Saint Helena, Ascension and Tristan da Cunha
+  :capital: Jamestown
+  :iso: SH
+  :postal_code: ''
+- :name: Saint Kitts and Nevis
+  :capital: Basseterre
+  :iso: KN
+  :postal_code: ''
+- :name: Saint Lucia
+  :capital: Castries
+  :iso: LC
+  :postal_code: ''
+- :name: Saint Martin (French part)
+  :capital: Marigot
+  :iso: MF
+  :postal_code: ''
+- :name: Saint Pierre and Miquelon
+  :capital: Saint-Pierre
+  :iso: PM
+  :postal_code: ''
+- :name: Saint Vincent and the Grenadines
+  :capital: Kingstown
+  :iso: VC
+  :postal_code: ''
+- :name: Samoa
+  :capital: Apia
+  :iso: WS
+  :postal_code: ''
+- :name: San Marino
+  :capital: City of San Marino
+  :iso: SM
+  :postal_code: ''
+- :name: Sao Tome and Principe
+  :capital: São Tomé
+  :iso: ST
+  :postal_code: ''
+- :name: Saudi Arabia
+  :capital: Riyadh
+  :iso: SA
+  :postal_code: '0404'
+- :name: Senegal
+  :capital: Dakar
+  :iso: SN
+  :postal_code: ''
+- :name: Serbia
+  :capital: Belgrade
+  :iso: RS
+  :postal_code: ''
+- :name: Seychelles
+  :capital: Victoria
+  :iso: SC
+  :postal_code: ''
+- :name: Sierra Leone
+  :capital: Freetown
+  :iso: SL
+  :postal_code: ''
+- :name: Singapore
+  :capital: Singapore
+  :iso: SG
+  :postal_code: '530173'
+- :name: Sint Maarten (Dutch part)
+  :capital: Philipsburg
+  :iso: SX
+  :postal_code: ''
+- :name: Slovakia
+  :capital: Bratislava
+  :iso: SK
+  :postal_code: '90101'
+- :name: Slovenia
+  :capital: Ljubljana
+  :iso: SI
+  :postal_code: '2314'
+- :name: Solomon Islands
+  :capital: Honiara
+  :iso: SB
+  :postal_code: ''
+- :name: Somalia
+  :capital: Mogadishu
+  :iso: SO
+  :postal_code: ''
+- :name: South Africa
+  :capital: Pretoria
+  :iso: ZA
+  :postal_code: '1731'
+- :name: South Georgia and the South Sandwich Islands
+  :capital: King Edward Point
+  :iso: GS
+  :postal_code: ''
+- :name: Korea (Republic of)
+  :capital: Seoul
+  :iso: KR
+  :postal_code: '06106'
+- :name: South Sudan
+  :capital: Juba
+  :iso: SS
+  :postal_code: ''
+- :name: Spain
+  :capital: Madrid
+  :iso: ES
+  :postal_code: '03738'
+- :name: Sri Lanka
+  :capital: Colombo
+  :iso: LK
+  :postal_code: '123'
+- :name: Sudan
+  :capital: Khartoum
+  :iso: SD
+  :postal_code: ''
+- :name: Suriname
+  :capital: Paramaribo
+  :iso: SR
+  :postal_code: ''
+- :name: Svalbard and Jan Mayen
+  :capital: Longyearbyen
+  :iso: SJ
+  :postal_code: ''
+- :name: Swaziland
+  :capital: Lobamba
+  :iso: SZ
+  :postal_code: ''
+- :name: Sweden
+  :capital: Stockholm
+  :iso: SE
+  :postal_code: '70210'
+- :name: Switzerland
+  :capital: Bern
+  :iso: CH
+  :postal_code: '1233 '
+- :name: Syrian Arab Republic
+  :capital: Damascus
+  :iso: SY
+  :postal_code: ''
+- :name: Taiwan
+  :capital: Taipei
+  :iso: TW
+  :postal_code: '241'
+- :name: Tajikistan
+  :capital: Dushanbe
+  :iso: TJ
+  :postal_code: ''
+- :name: Tanzania, United Republic of
+  :capital: Dodoma
+  :iso: TZ
+  :postal_code: ''
+- :name: Thailand
+  :capital: Bangkok
+  :iso: TH
+  :postal_code: '10270'
+- :name: Timor-Leste
+  :capital: Dili
+  :iso: TL
+  :postal_code: ''
+- :name: Togo
+  :capital: Lomé
+  :iso: TG
+  :postal_code: ''
+- :name: Tokelau
+  :capital: Fakaofo
+  :iso: TK
+  :postal_code: ''
+- :name: Tonga
+  :capital: Nuku'alofa
+  :iso: TO
+  :postal_code: ''
+- :name: Trinidad and Tobago
+  :capital: Port of Spain
+  :iso: TT
+  :postal_code: ''
+- :name: Tunisia
+  :capital: Tunis
+  :iso: TN
+  :postal_code: '4070'
+- :name: Turkey
+  :capital: Ankara
+  :iso: TR
+  :postal_code: '34500'
+- :name: Turkmenistan
+  :capital: Ashgabat
+  :iso: TM
+  :postal_code: ''
+- :name: Turks and Caicos Islands
+  :capital: Cockburn Town
+  :iso: TC
+  :postal_code: ''
+- :name: Tuvalu
+  :capital: Funafuti
+  :iso: TV
+  :postal_code: ''
+- :name: Uganda
+  :capital: Kampala
+  :iso: UG
+  :postal_code: ''
+- :name: Ukraine
+  :capital: Kiev
+  :iso: UA
+  :postal_code: '29006'
+- :name: United Arab Emirates
+  :capital: Abu Dhabi
+  :iso: AE
+  :postal_code: ''
+- :name: United Kingdom of Great Britain and Northern Ireland
+  :capital: London
+  :iso: GB
+  :postal_code: PE30 4UF
+- :name: United States of America
+  :capital: Washington, D.C.
+  :iso: US
+  :postal_code: 00604-6092
+- :name: Uruguay
+  :capital: Montevideo
+  :iso: UY
+  :postal_code: '70101'
+- :name: Uzbekistan
+  :capital: Tashkent
+  :iso: UZ
+  :postal_code: aaa
+- :name: Vanuatu
+  :capital: Port Vila
+  :iso: VU
+  :postal_code: ''
+- :name: Venezuela (Bolivarian Republic of)
+  :capital: Caracas
+  :iso: VE
+  :postal_code: ''
+- :name: Viet Nam
+  :capital: Hanoi
+  :iso: VN
+  :postal_code: '71813'
+- :name: Wallis and Futuna
+  :capital: Mata-Utu
+  :iso: WF
+  :postal_code: ''
+- :name: Western Sahara
+  :capital: El Aaiún
+  :iso: EH
+  :postal_code: ''
+- :name: Yemen
+  :capital: Sana'a
+  :iso: YE
+  :postal_code: ''
+- :name: Zambia
+  :capital: Lusaka
+  :iso: ZM
+  :postal_code: ''
+- :name: Zimbabwe
+  :capital: Harare
+  :iso: ZW
+  :postal_code: ''
