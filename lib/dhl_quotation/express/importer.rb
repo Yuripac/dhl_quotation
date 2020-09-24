@@ -1,3 +1,5 @@
+require 'dhl_quotation/express/decoder'
+
 module DHLQuotation::Express
   class Importer
 
@@ -5,7 +7,8 @@ module DHLQuotation::Express
       opts[:account] ||= Client.account
       
       payload = Payload.default(opts)
-      Client.run(:get_rate_request, payload)
+      resp = Client.run(:get_rate_request, payload)
+      Decoder.decode(resp.body)
     end
 
   end
