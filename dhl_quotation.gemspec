@@ -5,6 +5,8 @@ Gem::Specification.new do |s|
   s.summary = 'DHL Quotation'
   s.authors = 'Yuri Dias'
   s.version = DHLQuotation::VERSION
-  s.files = Dir["{lib}/**/*.rb", "{config}/**/*.yml", "bin/*", "LICENSE", "*.md"]
+  s.files = Dir["test/**/*.rb {lib}/**/*.rb", "{config}/**/*.yml", "bin/*", "LICENSE", "*.md"]
   s.add_dependency 'savon', '~> 2.12.0'
+  s.add_development_dependency 'minitest'
+  s.add_development_dependency 'simplecov'
 end

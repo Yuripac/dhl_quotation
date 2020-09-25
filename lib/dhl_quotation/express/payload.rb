@@ -5,7 +5,7 @@ module DHLQuotation
     class Payload
       class << self
         def default(opts = {})
-          country_code = opts[:recipient][:country_code]
+          country_code = opts.dig(:recipient, :country_code)
           {
             requested_shipment: {
               drop_off_type: opts[:drop_off_type] || 'REQUEST_COURIER',
@@ -16,7 +16,7 @@ module DHLQuotation
               get_detailed_rate_breakdown: 'Y',
               ship: {
                 shipper: opts[:shipper], # Set a default street line
-                recipient: opts[:recipient].merge(street_lines: 'street 999')
+                recipient: opts[:recipient]&.merge(street_lines: 'street 999')
               },
               packages: packages(opts[:packages]),
               ship_timestamp: opts[:ship_timestamp] || default_ship_timestamp,
@@ -26,6 +26,8 @@ module DHLQuotation
         end
 
         def packages(packages)
+          return if packages.nil?
+
           {
             requested_packages: packages.map.with_index(1) do |package, i|
               {
