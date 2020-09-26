@@ -1,15 +1,19 @@
 module DHLQuotation
   module Express
     class Content
-      class << self
-        TAXABLE     = 'DOCUMENTS'.freeze
-        NON_TAXABLE = 'NON_DOCUMENTS'.freeze
+      TAXABLE     = 'DOCUMENTS'.freeze
+      NON_TAXABLE = 'NON_DOCUMENTS'.freeze
 
-        attr_accessor :taxable_countries
+      attr_accessor :taxable_countries
 
-        def by_country_code(code)
-          taxable_countries&.include?(code) ? TAXABLE : NON_TAXABLE
-        end
+      def initialize(opts = {})
+        config = DHLQuotation.configuration
+        @taxable_countries =
+          opts[:taxable_countries] || config.taxable_countries
+      end
+
+      def by_country_code(code)
+        taxable_countries&.include?(code) ? TAXABLE : NON_TAXABLE
       end
     end
   end

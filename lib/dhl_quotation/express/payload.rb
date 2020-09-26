@@ -48,7 +48,7 @@ module DHLQuotation
         end
 
         def default_content(country_code)
-          DHLQuotation::Express::Content.by_country_code(country_code)
+          DHLQuotation::Express::Content.new.by_country_code(country_code)
         end
       end
     end

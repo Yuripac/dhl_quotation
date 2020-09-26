@@ -1,8 +1,8 @@
 require 'test_helper'
 
 describe DHLQuotation::Express::Content do
-  describe '::by_country_code' do
-    let(:content) { DHLQuotation::Express::Content.clone }
+  describe '#by_country_code' do
+    let(:content) { DHLQuotation::Express::Content.new }
     it 'should return country as taxable' do
       content.taxable_countries = [:FI]
       expect(content.by_country_code(:FI)).must_equal 'DOCUMENTS'

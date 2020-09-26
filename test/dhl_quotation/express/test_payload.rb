@@ -2,7 +2,7 @@ require 'test_helper'
 
 describe DHLQuotation::Express::Payload do
   describe '::default' do
-    let(:payload) { DHLQuotation::Express::Payload.clone }
+    let(:payload) { DHLQuotation::Express::Payload }
 
     it 'should return a filled payload with set and default values' do
       current_time = Time.now
