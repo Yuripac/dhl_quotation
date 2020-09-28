@@ -19,7 +19,6 @@ module DHLQuotation
   end
 end
 
-require 'singleton'
 class Configuration
   attr_accessor :user, :password
   attr_accessor :account
