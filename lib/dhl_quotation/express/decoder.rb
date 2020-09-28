@@ -2,17 +2,27 @@ module DHLQuotation
   module Express
     class Decoder
       def self.decode(data)
-        return [] unless (data = data.dig(:rate_response, :provider, :service))
+        provider = data.dig(:rate_response, :provider)
+        services = Array.wrap(provider&.dig(:service))
+        {
+          services: services.map do |s|
+            {
+              service: s[:@type],
+              service_name: s[:service_name],
+              currency: s.dig(:total_net, :currency),
+              amount: s.dig(:total_net, :amount),
+              deadline: s[:total_transit_days],
+            }
+          end,
+          errors: error_messages(provider&.dig(:notification))
+        }
+      end
 
-        data.map do |d|
-          {
-            service: d[:@type],
-            service_name: d[:service_name],
-            currency: d.dig(:total_net, :currency),
-            amount: d.dig(:total_net, :amount),
-            deadline: d[:total_transit_days]
-          }
-        end
+      def self.error_messages(notification)
+        notifications = Array.wrap(notification)
+        return [] if notifications.any? { |n| n[:message].nil? }
+
+        notifications.map { |n| { message: n[:message], code: n[:@code] } }
       end
     end
   end

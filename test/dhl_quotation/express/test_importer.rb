@@ -26,15 +26,18 @@ describe DHLQuotation::Express::Importer do
               .returns(client_result)
       result = importer.run(account: '123')
       expect(result).must_equal(
-        [
-          {
-            service: 'P',
-            service_name: nil,
-            currency: nil,
-            amount: '21.3',
-            deadline: '3'
-          }
-        ]
+        {
+          services: [
+            {
+              service: 'P',
+              service_name: nil,
+              currency: nil,
+              amount: '21.3',
+              deadline: '3'
+            }
+          ],
+          errors: []
+        }
       )
     end
   end
