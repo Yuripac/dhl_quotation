@@ -3,7 +3,7 @@ module DHLQuotation
     class WorldImporter
       attr_accessor :importer
 
-      def initialize(importer: Importer.new, interval: 5)
+      def initialize(importer: Importer.new, interval: 3)
         @importer = importer
         @interval = interval
       end
