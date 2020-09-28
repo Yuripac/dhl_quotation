@@ -11,4 +11,5 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new(
 )
 
 require 'minitest/autorun'
+require 'mocha/minitest'
 require 'dhl_quotation'

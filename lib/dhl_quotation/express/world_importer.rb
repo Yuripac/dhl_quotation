@@ -3,17 +3,16 @@ module DHLQuotation
     class WorldImporter
       attr_accessor :importer
 
-      def initialize(importer = nil)
-        @importer = importer || Importer.new
+      def initialize(importer: Importer.new, interval: 5)
+        @importer = importer
+        @interval = interval
       end
 
       def run(opts = {})
         countries = DHLQuotation::Country.table
-        countries.each_slice(60).flat_map do |c_group|
-          result = c_group.map do |c|
-            import_and_format(c, opts.merge(recipient_format(c)))
-          end
-          sleep 60
+        countries.map do |c|
+          result = import_and_format(c, opts.merge(recipient_format(c)))
+          sleep @interval
           result
         end
       end
@@ -30,10 +29,13 @@ module DHLQuotation
       end
 
       def import_and_format(country_data, opts)
-        {
-          country_code: country_data[:iso],
-          services: importer.run(opts)
-        }
+        result = { country_code: country_data[:iso], services: [], error: nil }
+        begin
+          result[:services] = importer.run(opts)
+        rescue Savon::Error => e
+          result[:error] = e.message
+        end
+        result
       end
     end
   end

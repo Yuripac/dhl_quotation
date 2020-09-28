@@ -1,5 +1,4 @@
 require 'test_helper'
-require "savon/mock/spec_helper"
 
 describe DHLQuotation::Express::Client do
   let(:client) { DHLQuotation::Express::Client.new }
@@ -15,11 +14,9 @@ describe DHLQuotation::Express::Client do
 
   describe '#run' do
     it 'should call the savon method' do
-      client.connection.stub(:call, 'success') do
-        soap_result =
-          client.run(:get_rate_request, {})
-        expect(soap_result).must_equal 'success'
-      end
+      client.connection.stubs(:call).returns('success')
+      soap_result = client.run(:get_rate_request, {})
+      expect(soap_result).must_equal 'success'
     end
   end
 end
