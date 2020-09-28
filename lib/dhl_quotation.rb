@@ -1,5 +1,6 @@
 require 'dhl_quotation/country'
 
+require 'dhl_quotation/core_ext/array/wrap'
 require 'dhl_quotation/express/content'
 require 'dhl_quotation/express/client'
 require 'dhl_quotation/express/payload'
@@ -17,10 +18,10 @@ module DHLQuotation
       @configuration ||= Configuration.new
     end
   end
-end
 
-class Configuration
-  attr_accessor :user, :password
-  attr_accessor :account
-  attr_accessor :taxable_countries
+  class Configuration
+    attr_accessor :user, :password
+    attr_accessor :account
+    attr_accessor :taxable_countries
+  end
 end
