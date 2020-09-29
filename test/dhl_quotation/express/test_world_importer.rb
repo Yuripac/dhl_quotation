@@ -10,17 +10,17 @@ describe DHLQuotation::Express::WorldImporter do
       importer = world_importer.importer
       importer.stubs(:run)
               .with(recipient_data(finland))
-              .returns(%w[fi_p fi_u])
+              .returns(services: %w[fi_p fi_u])
 
       importer.stubs(:run)
               .with(recipient_data(france))
-              .returns(%w[fr_p fr_u])
+              .returns(services: %w[fr_p fr_u])
       DHLQuotation::Country.stub(:table, countries_data) do
         result = world_importer.run
         expect(result).must_equal(
           [
-            { country_code: finland[:iso], services: %w[fi_p fi_u], error: nil },
-            { country_code: france[:iso], services: %w[fr_p fr_u], error: nil }
+            { country_code: finland[:iso], services: %w[fi_p fi_u], request_error: nil },
+            { country_code: france[:iso], services: %w[fr_p fr_u], request_error: nil }
           ]
         )
       end
@@ -34,7 +34,7 @@ describe DHLQuotation::Express::WorldImporter do
         result = world_importer.run
         expect(result).must_equal(
           [
-            { country_code: finland[:iso], services: [], error: 'random error' }
+            { country_code: finland[:iso], services: [], request_error: 'random error' }
           ]
         )
       end

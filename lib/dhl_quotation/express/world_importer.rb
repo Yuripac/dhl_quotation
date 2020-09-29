@@ -3,7 +3,7 @@ module DHLQuotation
     class WorldImporter
       attr_accessor :importer
 
-      def initialize(importer: Importer.new, interval: 3)
+      def initialize(importer: Importer.new, interval: 5)
         @importer = importer
         @interval = interval
       end
@@ -29,11 +29,11 @@ module DHLQuotation
       end
 
       def import_and_format(country_data, opts)
-        result = { country_code: country_data[:iso], services: [], error: nil }
+        result = { country_code: country_data[:iso], services: [], request_error: nil }
         begin
-          result[:services] = importer.run(opts)
+          result.merge!(importer.run(opts))
         rescue Savon::Error => e
-          result[:error] = e.message
+          result[:request_error] = e.message
         end
         result
       end
