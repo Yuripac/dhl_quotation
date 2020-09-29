@@ -46,7 +46,7 @@
 - :name: Armenia
   :capital: Yerevan
   :iso: AM
-  :postal_code: E1W 5T7
+  :postal_code: '9999'
 - :name: Aruba
   :capital: Oranjestad
   :iso: AW
@@ -62,7 +62,7 @@
 - :name: Azerbaijan
   :capital: Baku
   :iso: AZ
-  :postal_code: AZ1038
+  :postal_code: '9999'
 - :name: Bahamas
   :capital: Nassau
   :iso: BS
@@ -146,7 +146,7 @@
 - :name: Brunei Darussalam
   :capital: Bandar Seri Begawan
   :iso: BN
-  :postal_code: '12'
+  :postal_code: 'AA9999'
 - :name: Bulgaria
   :capital: Sofia
   :iso: BG
@@ -374,7 +374,7 @@
 - :name: Guernsey
   :capital: St. Peter Port
   :iso: GG
-  :postal_code: '11'
+  :postal_code: 'AA9 9AA'
 - :name: Guinea
   :capital: Conakry
   :iso: GN
@@ -494,7 +494,7 @@
 - :name: Latvia
   :capital: Riga
   :iso: LV
-  :postal_code: '200012'
+  :postal_code: '9999'
 - :name: Lebanon
   :capital: Beirut
   :iso: LB
@@ -518,7 +518,7 @@
 - :name: Lithuania
   :capital: Vilnius
   :iso: LT
-  :postal_code: LT
+  :postal_code: '99999'
 - :name: Luxembourg
   :capital: Luxembourg
   :iso: LU
@@ -534,7 +534,7 @@
 - :name: Madagascar
   :capital: Antananarivo
   :iso: MG
-  :postal_code: Antananarivo 102
+  :postal_code: '999'
 - :name: Malawi
   :capital: Lilongwe
   :iso: MW
@@ -594,7 +594,7 @@
 - :name: Mongolia
   :capital: Ulan Bator
   :iso: MN
-  :postal_code: '976'
+  :postal_code: '99999'
 - :name: Montenegro
   :capital: Podgorica
   :iso: ME
@@ -722,7 +722,7 @@
 - :name: Puerto Rico
   :capital: San Juan
   :iso: PR
-  :postal_code: '0953'
+  :postal_code: '99999'
 - :name: Qatar
   :capital: Doha
   :iso: QA
@@ -734,7 +734,7 @@
 - :name: Réunion
   :capital: Saint-Denis
   :iso: RE
-  :postal_code: ljlj
+  :postal_code: '99999'
 - :name: Romania
   :capital: Bucharest
   :iso: RO
@@ -966,7 +966,7 @@
 - :name: Uzbekistan
   :capital: Tashkent
   :iso: UZ
-  :postal_code: aaa
+  :postal_code: '999999'
 - :name: Vanuatu
   :capital: Port Vila
   :iso: VU
