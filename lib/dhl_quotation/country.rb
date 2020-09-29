@@ -2,7 +2,8 @@ require 'yaml'
 
 module DHLQuotation
   class Country
-    FILE_PATH = 'config/data/countries.yml'.freeze
+    FILE_PATH =
+      File.expand_path('../../config/data/countries.yml', __dir__).freeze
 
     def self.table
       @table ||= load_data
