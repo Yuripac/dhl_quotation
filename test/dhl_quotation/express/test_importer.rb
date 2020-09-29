@@ -18,19 +18,27 @@ describe DHLQuotation::Express::Importer do
           }
         }
       )
-      payload = DHLQuotation::Express::Payload.default(account: '123')
+
+      payload_complement = {
+        account: '123',
+        recipient: { country_code: 'FI', city: 'Helsinki' },
+        packages: [{ weight: '1' }, { weight: '2.3' }]
+      }
+      payload = DHLQuotation::Express::Payload.default(payload_complement)
       importer = DHLQuotation::Express::Importer.new
       importer.client
               .expects(:run)
               .with(:get_rate_request, payload)
               .returns(client_result)
-      result = importer.run(account: '123')
+      result = importer.run(payload_complement)
       expect(result).must_equal(
         {
+          country_code: 'FI',
+          weight: 3.3,
           services: [
             {
-              service: 'P',
-              service_name: nil,
+              code: 'P',
+              name: nil,
               currency: nil,
               amount: '21.3',
               deadline: '3'

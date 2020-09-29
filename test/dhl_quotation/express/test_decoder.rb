@@ -6,15 +6,15 @@ describe DHLQuotation::Express::Decoder do
       expected_result = {
         services: [
           {
-            service: 'P',
-            service_name: 'DHL WORLDWIDE',
+            code: 'P',
+            name: 'DHL WORLDWIDE',
             currency: 'EUR',
             amount: '20',
             deadline: '9'
           },
           {
-            service: 'W',
-            service_name: 'DHL MEDICAL',
+            code: 'W',
+            name: 'DHL MEDICAL',
             currency: 'EUR',
             amount: '30.45',
             deadline: '3'
