@@ -3,7 +3,7 @@ require 'savon'
 module DHLQuotation
   module Express
     class Client
-      WSDL_PATH = 'https://wsbexpress.dhl.com/sndpt/expressRateBook?WSDL'.freeze
+      WSDL_PATH = 'https://wsbexpress.dhl.com/gbl/expressRateBook?WSDL'.freeze
 
       def initialize(opts = {})
         config = DHLQuotation.configuration
